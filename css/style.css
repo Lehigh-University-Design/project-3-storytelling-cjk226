@@ -112,10 +112,12 @@ body {
 /* BRANCH STYLING */
 .branch-section {
     border-radius: 20px;
-    padding: 60px 20px;
+    padding: 80px 30px;
     margin-top: 40px;
     background: white;
     box-shadow: 0 8px 20px rgba(0,0,0,0.07);
+    max-width: 600px;
+    min-height: 450px;
 }
 
 .good-path {
@@ -128,7 +130,10 @@ body {
 
 /* ENDINGS */
 .ending {
-    padding: 120px 20px;
+    padding: 80px 30px;
+    max-width: 600px;
+    min-height: 450px
+
 }
 
 .good-path.ending {
@@ -167,7 +172,6 @@ body {
   border: 1px solid #ccc;
   border-radius: 8px;
   background: #fafafa;
-  text-align: left;
 }
 
 .continue-btn {
@@ -194,10 +198,12 @@ body {
 
 .good-path {
     border-left: 8px solid #7cbfa6; /* Light green/teal border */
+    border-right: 8px solid #7cbfa6;
 }
 
 .bad-path {
     border-left: 8px solid #c9886a; /* Light brown/orange border */
+    border-right: 8px solid #c9886a;
 }
 
 body {
@@ -229,4 +235,18 @@ body {
   width: 180px;              
   max-width: 30%;
   opacity: 0.9;
+}
+
+
+/* BRANCH STYLING */
+.branch-section {
+    border-radius: 20px;
+    padding: 60px 20px;
+    /* CHANGE THIS LINE: Remove margin-top and replace with margin shorthand */
+    /* margin-top: 40px;  <- DELETE THIS */
+    margin: 40px auto 0; /* Centering the block: 40px top, auto left/right, 0 bottom */
+    
+    background: white;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.07);
+    text-align: center; /* Keeps text centered inside */
 }
