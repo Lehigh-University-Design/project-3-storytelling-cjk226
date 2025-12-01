@@ -203,3 +203,30 @@ body {
 body {
   cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32'><text y='24' font-size='24'>👕</text></svg>") 16 16, auto;
 }
+
+
+
+.thread-img {
+  display: block;
+  margin: 40px auto 0;  
+  width: 400px;         
+  max-width: 80%;      
+}
+
+
+
+.recycle-img {
+  display: block;
+  margin: 20px auto 25px;   /* space above the image */
+  width: 180px;           /* adjust to make bigger or smaller */
+  max-width: 30%;        /* responsive behavior */
+  opacity: 0.9;          /* soft, blended look */
+}
+
+.landfill-img {
+  display: block;
+  margin: 20px auto 25px;  
+  width: 180px;              
+  max-width: 30%;
+  opacity: 0.9;
+}
