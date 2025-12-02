@@ -225,10 +225,10 @@ body {
 
 .recycle-img {
   display: block;
-  margin: 20px auto 25px;   /* space above the image */
+  margin: 20px auto 25px;   /* space above the image */  
   width: 180px;           /* adjust to make bigger or smaller */
   max-width: 30%;        /* responsive behavior */
-  opacity: 0.9;          /* soft, blended look */
+  opacity: 0.9;       
 }
 
 .landfill-img {
@@ -238,14 +238,55 @@ body {
   max-width: 30%;
   opacity: 0.9;
 }
+.green-check-img {
+  display: block;
+  margin: 40px auto 45px;  
+  width: 450px;              
+  max-width: 20%;
+  opacity: 0.9;
+}
 
+.biohazard-img {
+  display: block;
+  margin: 40px auto 45px;  
+  width: 450px;              
+  max-width: 20%;
+  opacity: 0.9;
+}
+.pile-img {
+  display: block;
+  margin: 40px auto 45px;  
+  width: 450px;              
+  max-width: 20%;
+  opacity: 0.9;
+}
+.hanger-img {
+  display: block;
+  margin: 40px auto 45px;  
+  width: 500px;              
+  max-width: 30%;
+  opacity: 0.9;
+}
 
+.trash-img {
+  display: block;
+  margin: 70px auto 45px;  
+  width: 700px;              
+  max-width: 30%;
+  opacity: 0.9;
+}
+.swap-img {
+  display: block;
+  margin: 45px auto 45px;  
+  width: 700px;              
+  max-width: 30%;
+  opacity: 0.9;
+}
 /* BRANCH STYLING */
 .branch-section {
     border-radius: 20px;
     padding: 60px 20px;
-    /* CHANGE THIS LINE: Remove margin-top and replace with margin shorthand */
-    /* margin-top: 40px;  <- DELETE THIS */
+   
     margin: 40px auto 0; /* Centering the block: 40px top, auto left/right, 0 bottom */
     
     background: white;
